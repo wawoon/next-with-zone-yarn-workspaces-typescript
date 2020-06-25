@@ -6,8 +6,14 @@
     }
   },
   "builds": [
-    { "src": "blog/package.json", "use": "@now/next" },
-    { "src": "home/package.json", "use": "@now/next" }
+    {
+      "src": "blog/package.json",
+      "use": "@now/next"
+    },
+    {
+      "src": "home/package.json",
+      "use": "@now/next"
+    }
   ],
   "routes": [
     { "src": "/blog/_next(.*)", "dest": "blog/_next$1" },

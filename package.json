@@ -1,4 +1,13 @@
 {
   "name": "with-zones-example",
-  "private": true
+  "private": true,
+  "dependencies": {
+    "next": "latest",
+    "next-transpile-modules": "^3.0.2"
+  },
+  "workspaces": [
+    "blog",
+    "common",
+    "home"
+  ]
 }

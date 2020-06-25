@@ -1,8 +1,10 @@
-import Link from 'next/link'
+import Link from "next/link";
+// import { Hoge } from "../../../common/Hoge";
 
 export default function Blog() {
   return (
     <div>
+      {/* <Hoge /> */}
       <h3>This is our blog</h3>
       <ul>
         <li>
@@ -24,5 +26,5 @@ export default function Blog() {
         />
       </div>
     </div>
-  )
+  );
 }
