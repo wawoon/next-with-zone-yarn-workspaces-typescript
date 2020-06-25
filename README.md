@@ -13,11 +13,15 @@ See:
   - To also support the plain `next dev` scenario, `assetPrefix` is set dynamically based on the `BUILDING_FOR_NOW` environment variable, see [`vercel.json`](vercel.json) and [`blog/next.config.js`](blog/next.config.js).
   - Images and other `static` assets have to be prefixed manually, e.g., `` <img src={`${process.env.ASSET_PREFIX}/static/image.png`} /> ``, see [`blog/pages/blog/index.js`](blog/pages/blog/index.js).
 
+## Demo
+
+https://next-with-zone-yarn-workspaces-typescript.vercel.app/
+
 ## Deploy your own
 
 Deploy the example using [Vercel](https://vercel.com):
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/wawoon/next-with-zone-yarn-workspace-typescript/tree/master)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/wawoon/next-with-zone-yarn-workspaces-typescript/tree/master)
 
 # How to start
 
